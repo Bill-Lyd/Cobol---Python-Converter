@@ -8,7 +8,7 @@ Thank you for reading.
 
 TLDR: Leveraged open source code, modified said code to run a batch, downloaded and uploaded results to GitHub.
 
-Here are the console commands I ran:
+Here are the console commands I ran to obtain HELLO.py:
 
   PS C:\Users\willi\Desktop\TRAVELERS\viper-mf-main\viper-mf-main\src> python cobra_main.py ./cobol_tests/COBALTEST.cbl ./converted/
   
@@ -21,3 +21,15 @@ Here are the console commands I ran:
   Skipping missing copybook: EIB
   
   completed conversion of ./cobol_tests/COBALTEST.cbl to --> ./converted/HELLO.py
+
+
+Here is Hello.py in action:
+
+  PS C:\Users\willi\Desktop\TRAVELERS\viper-mf-main\viper-mf-main\src> python .\converted\HELLO.py 
+
+  "ENTERYOURNAME:"
+
+  "[input value]: bill"
+
+  "HELLO," bill "!"
+
